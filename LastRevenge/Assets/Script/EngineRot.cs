@@ -20,7 +20,7 @@ public class EngineRot : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-            Vector3 vec = new Vector3(0.0f, PC.MoveSpeed / 5.0f, 0f);
+            Vector3 vec = new Vector3(0.0f, 5.0f, 0f);
             target.transform.Rotate(vec);
         
 
